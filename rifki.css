@@ -1,0 +1,33 @@
+.dpib,
+.titl,
+.tpm,
+.tkr,
+.tkj,
+.rpl,
+.tsm,
+.tki,
+.tei {
+  box-sizing: border-box;
+  border: 1px black solid;
+  display: block;
+  margin: 10px;
+  max-width: 350px;
+}
+.jurusan {
+  text-align: center;
+}
+.jurusan1 {
+  display: flex;
+  justify-content: center;
+}
+.jurusan2 {
+  display: flex;
+  justify-content: center;
+}
+.jurusan3 {
+  display: flex;
+  justify-content: center;
+}
+span {
+  color: orange;
+}
