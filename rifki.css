@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Gochi+Hand&family=Montserrat&family=Noto+Sans+NKo+Unjoined&family=Noto+Serif&family=Poppins&display=swap");
+
 .dpib,
 .titl,
 .tpm,
@@ -15,10 +17,12 @@
 }
 .jurusan {
   text-align: center;
+  font-size: 12px;
 }
 .jurusan1 {
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 .jurusan2 {
   display: flex;
@@ -28,6 +32,13 @@
   display: flex;
   justify-content: center;
 }
-span {
+header span {
   color: orange;
+  font-family: "Noto Serif", serif;
+}
+header h1 {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  text-align: center;
 }
