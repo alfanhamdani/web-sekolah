@@ -10,10 +10,11 @@
 .tki,
 .tei {
   box-sizing: border-box;
-  border: 1px black solid;
+  border: 1px lightgray solid;
   display: block;
   margin: 10px;
   max-width: 350px;
+  padding: 10px;
 }
 .jurusan {
   text-align: center;
@@ -41,4 +42,20 @@ header h1 {
 }
 header {
   text-align: center;
+}
+button {
+  padding: 10px;
+  border-radius: 8px;
+  background: transparent;
+}
+.dpib:hover,
+.titl:hover,
+.tpm:hover,
+.tkr:hover,
+.tkj:hover,
+.rpl:hover,
+.tsm:hover,
+.tki:hover,
+.tei:hover {
+  border: 2px black solid;
 }
